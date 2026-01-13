@@ -1,0 +1,121 @@
+.create-product-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.create-card {
+    background: var(--surface-color);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.create-card h2 {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: var(--font-display);
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea,
+.category-select {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.category-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+}
+
+.category-select option {
+    background: var(--surface-color);
+    color: var(--text-primary);
+    padding: 0.5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.save-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.save-btn:hover:not(:disabled) {
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.save-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.cancel-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cancel-btn:hover {
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+}
+
+.error-msg {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+    padding: 0.75rem;
+    border-radius: var(--radius-sm);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}

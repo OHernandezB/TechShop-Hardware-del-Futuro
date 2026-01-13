@@ -1,0 +1,44 @@
+=== STARTING AUTH DEBUG ===
+=== STARTING AUTH DEBUG ===
+
+Checking Group E-NnALTq (https://x8ki-letl-twmt.n7.xano.io/api:E-NnALTq)
+  POST /auth/signup...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /signup...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /user...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /account...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+
+Checking Group WUqbQvot (https://x8ki-letl-twmt.n7.xano.io/api:WUqbQvot)
+  POST /auth/signup...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /signup...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /user...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /account...
+  ❌ Failed with Status: 401
+     Data: {"code":"ERROR_CODE_UNAUTHORIZED","message":"Unauthorized - Authentication Required"}
+
+Checking Group mZqu911u (https://x8ki-letl-twmt.n7.xano.io/api:mZqu911u)
+  POST /auth/signup...
+  ✅ SUCCESS! Status: 200
+     Response: {"authToken":"eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwiemlwIjoiREVGIn0.urhOePScOVzKFZd2ZMg13A-CcIWmBsWss6gj5VajyfF1Jq4_ySrCWBWfTebWzJfFAExSkuuUd1faVC4Q0R8AZ6AO8wFMAqBJ.UAsXOsL1yciw7tu28uL8jg.PkyaOyxZ4a7ttyzAngD0e4o5QdmJ3CT3aqZCvUx67UqymKLDznesBAdbyhSx9Tt2RmERjjNceQpzMjspJlfYlOKyfJL_nC0kxqq63oe1Ksp97EAvTq94IRGzL5Cq5Vtff9azTnqWLP2fis63iPYjbdvoIE8wWUhwXVl1Y5atIB4.5UW8OQ4FJt0WM62Y4NIa3MlNLgW3jyxiun53sdbDelw","user_id":5}
+  POST /signup...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /user...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
+  POST /account...
+  ❌ Failed with Status: 404
+     Data: {"code":"ERROR_CODE_NOT_FOUND","message":"Unable to locate request."}
